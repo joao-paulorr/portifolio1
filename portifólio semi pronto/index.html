@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Portifólio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/LOGODOSITE2.png">
+  <!-- boostrap 5, achei isso na internet e pesquisei pra ver como funciona -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <script src="script/script.js" defer></script>
+</head>
+
+<body>
+  <!-- esse sistema de navegação, pesquisei um template na internet, pois não queria fazer mais de uma página, mas fiz o que sei, que é aquele antigo menu, com lista, e integrei com o da internet -->
+  <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+    <div class="container">
+      <a class="navbar-brand" href="#">J.P.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portifólio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- frase e foto de bem vindo -->
+  <section class="bgimage" id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+          <h2 class="hero_title">Olá! Bem vindo ao meu portifólio!</h2>
+          <p class="hero_desc">Meu nome é João!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- sessão de sobre -->
+  <section id="about">
+    <div class="container mt-4 pt-4">
+      <h1 class="text-center">Sobre mim.</h1>
+      <div class="row mt-4">
+        <div class="col-lg-4">
+          <img src="images/sobre.jpg" class="imageAboutPage" alt="">
+        </div>
+
+        <div class="col-lg-8">
+          <p> Eu sou João Paulo, um programador iniciante e estudante de uma escola em São Paulo, SP. Tenho 16 anos,
+            moro aqui em São Paulo e busco um dia conseguir morar fora, ou visitar o país inteiro.
+
+          </p>
+          <div class="row mt-3">
+            <div class="col-md-6">
+              <ul>
+                <li>Nome: João Paulo R. R.</li>
+                <li>Idade: 16</li>
+                <li>Ocupação: Estudante</li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <p> Começei a programar
+              este ano, 2023, com apenas algumas noções de como utilizar programas tipo Visual Studio Code, porém nunca
+              me
+              aprofundei. Prático o curso Desenvolvimento de sistemas na minha escola, um etinerário grátis, mas também
+              faço o curso grátuito de Computer Science da Harvard disponível na plataforma virtual edX. Eu gosto também
+              de jogar vôlei, um esporte que tenho uma paixão profunda e tocar música, sendo meu instrumento favorito a
+              bateria. É isso! Caso você tenha gostado da minha história, ou dos meus projetos, fique ligado no meu
+              GitHub, estou sempre postando atividades e buscando conhecer novos métodos de programar. Valeu!
+
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- sessão do portifolio-->
+  <section id="portfolio">
+    <div class="container mt-3">
+      <h1 class="text-center">Portifólio</h1>
+      <div class="row">
+        <div class="col-lg-4 mt-4">
+          <div class="card">
+            <img class="card-img-top" src="images/tabuada.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Tabuada</h4>
+              <p class="card-text">Um programa que calcula tabuada usando laços de repetição.</p>
+              <div class="text-center">
+                <a href="https://github.com/joao-paulorr/tabuada" class="btn btn-success">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-4">
+          <div class="card portfolioContent">
+            <img class="card-img-top" src="images/animacao.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Animação</h4>
+              <p class="card-text">Animação usando CSS e Java Script.</p>
+              <div class="text-center">
+                <a href="https://github.com/joao-paulorr/animacao" class="btn btn-success">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-4">
+          <div class="card portfolioContent">
+            <img class="card-img-top" src="images/sucessor.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Sucessor e Antecessor</h4>
+              <p class="card-text">2 códigos em 1, um sobre somar 1+ e outro sobre digitar uma palavra e aparecer uma
+                foto.</p>
+              <div class="text-center">
+                <a href="https://github.com/joao-paulorr/sucessor-e-antecessor" class="btn btn-success">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-lg-4 mt-4">
+          <div class="card portfolioContent">
+            <img class="card-img-top" src="images/forms.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Forms com DOM</h4>
+              <p class="card-text">Uma página simples de formulário.</p>
+              <div class="text-center">
+                <a href="https://github.com/joao-paulorr/formscomdom" class="btn btn-success">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-4">
+          <div class="card portfolioContent">
+            <img class="card-img-top" src="images/saveiro.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Trabalho Concessionária</h4>
+              <p class="card-text">Site de concessionária simples para um trabalho.</p>
+              <div class="text-center">
+                <a href="https://github.com/joao-paulorr/trabalho-saveiro" class="btn btn-success">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-4">
+          <div class="card portfolioContent">
+            <img class="card-img-top" src="images/contador.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Contador</h4>
+              <p class="card-text">Simples contador com o foco de aprendizado no Java Script.</p>
+              <div class="text-center">
+                <a href="https://github.com/joao-paulorr/contador" class="btn btn-success">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- sessão de contato -->
+  <section id="contact">
+    <div class="container mt-3 contactContent">
+      <h1 class="text-center">Contato</h1>
+
+      <div class="row mt-4">
+        <div class="col-lg-6">
+          <!-- foi foda fazer isso, mas achei na internet pesquisando coisas legais pra colocar no site -->
+          <div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;">
+            <div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe
+                style="height:100%;width:100%;border:0;" frameborder="0"
+                src="https://www.google.com/maps/embed/v1/place?q=State+School+Comendador+Miguel+Maluhy+-+Estrada+dos+Mirandas+-+Jardim+Maria+Duarte,+São+Paulo+-+State+of+São+Paulo,+Brazil&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+            </div><a class="our-googlemap-code" href="https://www.bootstrapskins.com/themes" id="make-map-data"></a>
+            <style>
+              #embed-map-canvas img {
+                max-height: none;
+                max-width: none !important;
+                background: none !important;
+              }
+            </style>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <!-- forms -->
+          <form>
+            <input type="text" class="form-control form-control-lg" placeholder="Nome">
+            <input type="email" class="form-control mt-3" placeholder="Email">
+            <input type="text" class="form-control mt-3" placeholder="Motivo">
+            <div class="mb-3 mt-3">
+              <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Detalhes"></textarea>
+            </div>
+          </form>
+          <button type="button" class="btn btn-success mt-3">Enviar</button>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- sessão do footer -->
+  <footer id="footer">
+    <div class="container-fluid">
+      <!-- social media icons -->
+      <div class="social-icons mt-4">
+        <a href="https://twitter.com/Avezinhoex" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+
+<!-- nesse portifolio dei o meu melhor pra pesquisar e fazer algo bonito, ainda sim é simples, não tem tanta coisa wow,
+provavelmente vão fazer melhor, mas to feliz com o resultado, e vou sim usar ele futuramente, ficar mexendo, mudando os
+projetos que tenho no portifólio, mas é isso. -->
