@@ -1,0 +1,102 @@
+/* foto/cor de fundo do hero */
+.bgimage {
+    height: 100vh;
+    background-color: #FF5D70;
+    background-size: cover;
+    position: relative;
+}
+
+/* texto no meio do hero*/
+.hero_title {
+    font-size: 4.5rem;
+}
+
+.hero_desc {
+    font-size: 2rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* imagem sobre */
+.imageAboutPage {
+    width: 100%;
+}
+
+#about {
+    background-color: white;
+    color: #FF5D70;
+}
+
+/* cor do fundo do menu ali em cima*/
+.navbarScroll.navbarDark {
+    background-color: #FF5D70;
+}
+
+#portfolio {
+    background-color: white;
+    color: #FF5D70;
+}
+
+#contact {
+    background-color: white;
+    color: #FF5D70;
+}
+
+/* icone das midias no footer*/
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.fa-twitter:hover {
+    color: white;
+}
+
+.fab {
+    color: #E84438;
+}
+
+/* footer estilo */
+#footer {
+    background-color: #FF5D70;
+    text-align: center;
+}
+
+/* espaço nas sessão */
+#about,
+#services,
+#portfolio,
+#contact {
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+#contact {
+    padding-bottom: 1rem;
+}
+
+.container a {
+    color: white;
+}
+
+.parallax-container {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-scrollbar-display: none !important;
+	scrollbar-width: 0 !important;
+	overflow: hidden !important;
+}
+
+.parallax-section {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
